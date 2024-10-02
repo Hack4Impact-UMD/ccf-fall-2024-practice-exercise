@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #61a8f8; /* Matches Figma's background */
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: black;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.catImage {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.generateButton {
+  background-color: #6c8dff; /* Matches the button color in Figma */
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.generateButton:hover {
+  background-color: #5673d7; /* Button hover effect */
+}
+
+.text {
+  font-size: 1rem;
+  color: black;
+}
